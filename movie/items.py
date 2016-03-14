@@ -17,6 +17,14 @@ class ys66Item(scrapy.Item):
     wangpan_info = scrapy.Field()
     online_url = scrapy.Field()
 
+class dy2018Item(scrapy.Item):
+    _id = scrapy.Field()
+    dy2018_url = scrapy.Field()
+    movie_name = scrapy.Field()
+    movie_type = scrapy.Field()
+    download_info = scrapy.Field()
+    update_time = scrapy.Field()
+
 class mtimeItem(scrapy.Item):
     mtime_url = scrapy.Field()
     movie_name = scrapy.Field()

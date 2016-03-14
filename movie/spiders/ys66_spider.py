@@ -10,8 +10,9 @@ import time
 
 class WanSpider(Spider):
     # lastcrawl time 2016-03-12
-    name = "66ys_crawl"
+    name = "66ys"
     allowed_domains = ["66ys.tv"]
+    collection_name = '66ys_movie'
     # movie_type_list = ['xijupian', 'dongzuopian', 'aiqingpian', 'kehuanpian', 'kongbupian', 'zhanzhengpian', 'julupian', 'bd']
     # movie_type_list = ['xijupian','dongzuopian', 'aiqingpian', 'kehuanpian', 'kongbupian', 'zhanzhengpian', 'julupian']
     # movie_type_list = ['xijupian']
